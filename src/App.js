@@ -1,13 +1,14 @@
 import React from "react";
 import "./index.css";
 import Particles from "./components/Particle/index";
-import SectionAPOD from "./components/SectionAPOD/index";
+import Router from "./routes"
+
 
 function App() {
   return (
     <div className="container">
      <Particles />
-     <SectionAPOD />
+     <Router />
     </div>
   );
 }

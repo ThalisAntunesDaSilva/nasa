@@ -8,37 +8,10 @@
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-.container {
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-  padding: 30px;
-}
-#canvas-image {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
 
-.particles {
-}
 
-.section {
-  height: 500px;
-  width: 80vw;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
-}
 
-.section:hover {
-}
+
+
+
+
