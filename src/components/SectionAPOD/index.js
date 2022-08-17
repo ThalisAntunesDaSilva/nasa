@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import api from "../../services/api";
-import NavBar from "../MaterialUI/NavBar/index";
 
 import "./styles.css";
 
@@ -10,7 +9,7 @@ function SectionAPOD() {
   async function handleApod() {
     try {
       const response = await api.get(
-        "/apod?api_key=Sfn26124UBii8hu6gtLEuXwN7Fc6Yms79Macy9vu"
+        "planetary/apod?api_key=Sfn26124UBii8hu6gtLEuXwN7Fc6Yms79Macy9vu"
       );
       const data = response.data;
 
@@ -27,8 +26,6 @@ function SectionAPOD() {
 
   return (
     <div>
-      <NavBar />
-
       <div className="container">
         <div className="container-geral">
           <div className="container-image">
